@@ -1,0 +1,13 @@
+* {
+    font-size: medium;
+    font-style: italic;
+}
+
+h3{font-style: oblique;
+    color:azure
+}
+
+h4 {
+    font-style: initial;
+    color: aquamarine;
+}
