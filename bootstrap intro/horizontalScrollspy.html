@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+        </script>
+
+    <style>
+        body{
+            position:relative;
+        }
+        p{
+            font-size: 18px;
+        }
+
+        #section1 {
+            padding-top: 50px;
+            height: 500px;
+            color: white;
+            background-color: green;
+        }
+
+        #section2 {
+            padding-top: 50px;
+            height: 500px;
+            color: aqua;
+            background-color: aliceblue;
+        }
+    </style>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <a class="navbar-brand" href="#">Cats</a>
+            </div>
+                <div class="collapse navbar-collapse" id="myNavbar"></div>
+        </nav>
+
+        <div id="section1" class="container-fluid">
+            <h1>Section 1</h1>
+            <h3>Cats</h3>
+            <h5>The cat, also referred to as the domestic cat, is a small domesticated carnivorous mammal. It is the only domesticated species of the family Felidae.</h5>
+
+            <p> Scroll this section.</p>
+
+        <div id="section2" class="container-fluid">
+            <h1>Section 2</h1>
+            <h3>Cats</h3>
+            <h5>Advances in archaeology and genetics have shown that the domestication of the cat occurred in the Near East around 7500 BC</h5>
+
+            <p>Scroll this section.</p>
+        </div>
+        </div>
+    </body>
+</html>
